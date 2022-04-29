@@ -17,5 +17,6 @@ How i think after it done. Learn and understand on practice about:
   - makefile
   - codestyle
   - git: ssh, clone, add, commit, push.
+
 Bonus part is linked lists. I stored it in another repository.
 This project gives an understanding of how functions work under the hood.
