@@ -13,14 +13,14 @@ SRCS	=	ft_atoi.c		ft_isalpha.c		ft_itoa.c\
 			ft_substr.c		ft_striteri.c		ft_strjoin.c\
 			ft_split.c		ft_strtrim.c		ft_strcmp.c
 #
-SRCS_B	=	ft_lstnew.c		ft_lstadd_front.c	ft_lstsize.c\
-			ft_lstlast.c	ft_lstadd_back.c	ft_lstdelone.c\
-			ft_lstclear.c	ft_lstiter.c		ft_lstmap.c
+#SRCS_B	=	ft_lstnew.c		ft_lstadd_front.c	ft_lstsize.c\
+#			ft_lstlast.c	ft_lstadd_back.c	ft_lstdelone.c\
+#			ft_lstclear.c	ft_lstiter.c		ft_lstmap.c
 
 HEADER	=	libft.h
 
 OBJ		=	${SRCS:%.c=%.o}
-OBJ_B	=	$(SRCS_B:%.c=%.o)
+#OBJ_B	=	$(SRCS_B:%.c=%.o)
 #
 CC		=	gcc
 CFLAGS	=	-Wall -Wextra -Werror
@@ -32,8 +32,8 @@ all		:	${NAME}
 ${NAME}	:	$(OBJ) $(HEADER)
 			ar rcs $(NAME) $?
 #
-bonus	:	${OBJ_B} ${HEADER}
-			ar rcs $(NAME) $?
+#bonus	:	${OBJ_B} ${HEADER}
+#			ar rcs $(NAME) $?
 #
 %.o : %.c	${HEADER}
 			${CC} ${CFLAGS} -c $< -o $@
