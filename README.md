@@ -1,4 +1,4 @@
-# libft [![slonnie's 42 Libft Score](https://badge42.vercel.app/api/v2/cl2ozuzd5003008jlvxigflcw/project/2364996)](https://github.com/JaeSeoKim/badge42)
+# libft                               [![slonnie's 42 Libft Score](https://badge42.vercel.app/api/v2/cl2ozuzd5003008jlvxigflcw/project/2364996)](https://github.com/JaeSeoKim/badge42)
 Coding prototypes of functions in c. Build into a single library using makefile
 
 This is the first project of the Ecole42 (School21 in Russia)
