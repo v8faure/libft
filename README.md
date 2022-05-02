@@ -20,3 +20,5 @@ How i think after it done. Learn and understand on practice about:
 
 Bonus part is linked lists. I stored it in another repository.
 This project gives an understanding of how functions work under the hood.
+
+[![slonnie's 42 Libft Score](https://badge42.vercel.app/api/v2/cl2ozuzd5003008jlvxigflcw/project/2364996)](https://github.com/JaeSeoKim/badge42)
